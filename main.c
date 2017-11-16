@@ -15,6 +15,7 @@
 #include "task7.h"
 #include "task8.h"
 #include "task9.h"
+#include "task13.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -72,9 +73,9 @@ int main(int argc, const char * argv[]) {
     stringswap_test();
     printf("\n\n");
     
-    //task9
-    printf("Task9 test\n\n");
-    mysortstr_test();
+    //task13
+    printf("Task13 test\n\n");
+    test_stack();
     printf("\n\n");
     
     return 0;
